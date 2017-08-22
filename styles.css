@@ -41,6 +41,16 @@ body{
   font-size: 10pt;
 }
 
-.navigation-top a:visited{
-  color:none;
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited, a:hover, a:active, a:{
+  color:inherit;
 }
