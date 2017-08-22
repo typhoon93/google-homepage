@@ -1,3 +1,9 @@
+body{
+  font-family:arial,sans-serif;
+  font-size:13px;
+}
+
+
 .logo {
     position: fixed;
     top: 50%;
@@ -21,6 +27,20 @@
     padding-right: 10px;
     background: white;
     border:solid;
+    border-width: thin;
     border-color:#F9F9F9;
-    box-shadow: 0 2px 1px #888888;
+    box-shadow: 1px 1px 3px #888888;
+}
+.navigation-top {
+  float:right;
+}
+.navigation-top li{
+  display:inline;
+  float:left;
+  padding-right: 5px;
+  font-size: 10pt;
+}
+
+.navigation-top a:visited{
+  color:none;
 }
