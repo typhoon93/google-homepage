@@ -41,10 +41,10 @@ body{
   font-size: 10pt;
 }
 
-
 a{
   text-decoration: none;
   color:black;
+  outline:none;
 }
 
 a:hover{
